@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\ashis\OneDrive\Desktop\HTML Tutorial\styles.css">
+    <title>Pricing Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Choose The Perfect Plan For You!</h1>
+    </header>
+
+    <section class="pricing-container">
+        <div class="pricing-tier" id="basic">
+            <h2>Basic</h2>
+            <p class="price">$10<span>/month</span></p>
+            <ul>
+                <li><i class="fas fa-check"></i> Access to Basic Features</li>
+                <li><i class="fas fa-envelope"></i> 24/7 Email Support</li>
+                <li><i class="fas fa-database"></i> Limited Data Storage</li>
+            </ul>
+            <button onclick="togglePricing('basic')">Select Plan</button>
+        </div>
+
+        <div class="pricing-tier" id="pro">
+            <h2>Pro</h2>
+            <p class="price">$20<span>/month</span></p>
+            <ul>
+                <li><i class="fas fa-check"></i> Access to Pro Features</li>
+                <li><i class="fas fa-phone"></i> 24/7 Phone and Email Support</li>
+                <li><i class="fas fa-database"></i> Expanded Data Storage</li>
+                <li><i class="fas fa-star"></i> Priority Access to New Features</li>
+            </ul>
+            <button onclick="togglePricing('pro')">Select Plan</button>
+        </div>
+
+        <div class="pricing-tier" id="premium">
+            <h2>Premium</h2>
+            <p class="price">$30<span>/month</span></p>
+            <ul>
+                <li><i class="fas fa-check"></i> Access to All Features</li>
+                <li><i class="fas fa-phone"></i> 24/7 Phone, Email, and Chat Support</li>
+                <li><i class="fas fa-database"></i> Unlimited Data Storage</li>
+                <li><i class="fas fa-star"></i> Exclusive Access to Beta Features</li>
+                <li><i class="fas fa-user"></i> Personal Account Manager</li>
+            </ul>
+            <button onclick="togglePricing('premium')">Select Plan</button>
+        </div>
+    </section>
+
+    <script src="C:\Users\ashis\OneDrive\Desktop\HTML Tutorial\script.js"></script>
+</body>
+</html>
